@@ -1,8 +1,7 @@
-name = "v20251104"
+name = "silent-meadow-7c3"
 main = "_worker.js"
 compatibility_date = "2025-11-04"
-keep_vars = true
 
-#[[kv_namespaces]]
-#binding = "KV"			#KV绑定名默认不可修改
-#id = ""				#KV数据库id
+# 说明：本项目在 Cloudflare Pages 上以「Git 集成」方式部署，
+# KV 绑定（变量名必须为 KV）与后台管理密码（变量 ADMIN）
+# 都在 Pages 项目的「设置 > 绑定 / 变量」中配置，不写在这里。
