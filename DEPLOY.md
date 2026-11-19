@@ -7,11 +7,13 @@
 | 项目 | 值 |
 | :--- | :--- |
 | Pages 项目名 | `silent-meadow-7c3` |
-| 访问地址 | https://silent-meadow-7c3.pages.dev |
+| 默认地址 | https://silent-meadow-7c3.pages.dev |
+| 自定义域名 | https://meadow.wanwan.ccwu.cc |
+| DNS 解析 | `meadow` CNAME 指向 `silent-meadow-7c3.pages.dev`（已代理） |
 | KV 绑定 | 变量名 `KV` |
 | 环境变量 | `ADMIN`（后台管理密码），已配置 |
 
-> 后台入口：`https://silent-meadow-7c3.pages.dev/admin`，输入 `ADMIN` 的值登录。
+> 后台入口：`https://meadow.wanwan.ccwu.cc/admin`，输入 `ADMIN` 的值登录。
 
 ## 自动部署链路
 
